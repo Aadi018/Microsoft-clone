@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    /* justify-content: space-around; */
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.left>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.right>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.main1{
+    background-image: url(copilot.avif);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.cont1{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 42vh;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 0.8em;
+    overflow: hidden;
+
+}
+#btn1{
+    background-color: yellow;
+    padding: 8px;
+    width: 5vw;
+    position: relative;
+    right: 20%;
+}
+.cont1>h1{
+    font-weight: 600;
+}
+.cont1>p{
+    font-size: 15px;
+    font-weight: 400;
+}
+#btn2{
+    background-color: blue;
+    padding: 8px;
+    width: 8vw;
+    position: relative;
+    right: 20%;
+    color: white;
+}
+.container{
+    height: ;
+}
+.img{
+
+}
